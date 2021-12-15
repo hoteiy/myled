@@ -24,11 +24,11 @@ $ make
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 
-#アンインストール
+#　アンインストール
 以下のコマンドを実行
 $ sudo rmmod myled
 
-#実行方法
+#　実行方法
 $ echo 0 > /dev/myled0　LED1、LED2消灯
 $ echo 1 > /dev/myled0　LED2点灯
 $ echo 2 > /dev/myled0　LED1点灯
