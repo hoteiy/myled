@@ -1,5 +1,5 @@
 //spdx-Licence-Identifer: GPL-3.0
-// *Copyright (c) 2021 Hotaka Yamashita and Ryuuichi Ueda. All rights reserved.
+// *Copyright (c) 2021 Hotaka Yamashita and Ryuichi Ueda. All rights reserved.
 
 #include <linux/module.h>
 #include <linux/fs.h>
@@ -8,7 +8,7 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
 #include <linux/delay.h>
-MODULE_AUTHOR("Ryuichi Ueda & Hotaka Yamashita");
+MODULE_AUTHOR("Hotaka Yamashita & Ryuichi Ueda");
 MODULE_DESCRIPTION("driver for LED control");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.0.1");
