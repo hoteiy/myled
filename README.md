@@ -18,3 +18,20 @@ LED2:24
 
 # インストール
 以下のコマンドを実行
+$ git clone git@github.com:hoteiy/myled1.git
+$ cd myled1
+$ make
+$ sudo insmod myled.ko
+$ sudo chmod 666 /dev/myled0
+
+#アンインストール
+以下のコマンドを実行
+$ sudo rmmod myled
+
+#実行方法
+$ echo 0 > /dev/myled0　LED1、LED2消灯
+$ echo 1 > /dev/myled0　
+$ echo 2 > /dev/myled0
+$ echo 3 > /dev/myled0
+$ echo 4 > /dev/myled0 
+
