@@ -4,6 +4,7 @@
 
 # 動作環境
 ･Raspberry Pi3 ModelB+
+
 ･Ubuntu 20.04 
 
 # 使用品
@@ -24,19 +25,19 @@ $ make
 $ sudo insmod myled.ko
 $ sudo chmod 666 /dev/myled0
 
-#　アンインストール
+# アンインストール
 以下のコマンドを実行
 $ sudo rmmod myled
 
-#　実行方法
+# 実行方法
 $ echo 0 > /dev/myled0　LED1、LED2消灯
 $ echo 1 > /dev/myled0　LED2点灯
 $ echo 2 > /dev/myled0　LED1点灯
 $ echo 3 > /dev/myled0　LED1、LED2点灯
 $ echo 4 > /dev/myled0　LED1、LED2が交互に点灯、消灯を20回繰り返す
 
-#実行動画
+# 実行動画
 https://youtu.be/fieD3l6RQQI
 
-#ライセンス
+# ライセンス
 
