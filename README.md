@@ -30,8 +30,13 @@ $ sudo rmmod myled
 
 #実行方法
 $ echo 0 > /dev/myled0　LED1、LED2消灯
-$ echo 1 > /dev/myled0　
-$ echo 2 > /dev/myled0
-$ echo 3 > /dev/myled0
-$ echo 4 > /dev/myled0 
+$ echo 1 > /dev/myled0　LED2点灯
+$ echo 2 > /dev/myled0　LED1点灯
+$ echo 3 > /dev/myled0　LED1、LED2点灯
+$ echo 4 > /dev/myled0　LED1、LED2が交互に点灯、消灯を20回繰り返す
+
+#実行動画
+https://youtu.be/fieD3l6RQQI
+
+#ライセンス
 
